@@ -19,11 +19,12 @@ C) Récupération et installation de la bdd
 
 NB: fichier sql envoyé par Email en piéce jointe.
 
--démarer le serveur en tapant php artisan serve
+- démarer le serveur en tapant php artisan serve
 
-charger la table datas , à partir du fichier sql en important directement dans phpmyadmin pour les données dans le fichiers csv.(voir fichier sql).
-B) accèder à votre routes http://127.0.0.1:8000/homes qui affiche directement les résutats de l'aglorithme pour les données demandées.
+- charger la table datas , à partir du fichier sql en important directement dans phpmyadmin pour les données dans le fichiers csv.(voir fichier sql).
+B) 
+- Accèder à votre route http://127.0.0.1:8000/homes qui affiche directement les résutats de l'aglorithme pour les données demandées.
 
--voir dans le controller DataController(la fonction algorithmique) dans (app/http/controllers/)
+- voir dans le controller DataController(la fonction algorithmique) dans (app/http/controllers/)
 
 NB: Plusieurs technique pour le rendre plus dynamiques(via les formulaire dans la vue et organisation des récupérations des données dans les tables mysql) dans le cas d'un projet de développement en prod.
