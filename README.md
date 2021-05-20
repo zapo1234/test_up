@@ -1,6 +1,6 @@
 développement du module de fidélisation par point test société up
 
-A)Environnement de développement PHP 7.3 , Lavarel 7.
+A)Environnement de développement PHP 7.3 , Lavarel 7. et Mysql
 
 B) Installa tion de projet clone le projet
 
@@ -10,9 +10,14 @@ B) Installa tion de projet clone le projet
 
 C) Récupération et installation de la bdd
 
--voir fichier .env , créer votre base de données dans phpmyadmin au nom test_up -charger les migration existante en tapant php artisan migrate.
+-voir fichier .env , créer votre base de données dans phpmyadmin au nom test_up -charger les migrations existante en tapant php artisan migrate.
+-importer le fichier datas.sql pour charger les données dans la table mysql nommmé datas.
+
+-démarer le serveur en tapant php artisan serve
 
 charger la table datas , à partir du fichier sql en important directement dans phpmyadmin pour les données dans le fichiers csv.(voir fichier sql).
 B) accèder à votre routes http://127.0.0.1:8000/homes qui affiche directement les résutats de l'aglorithme pour les données demandées.
+
+-voir dans le controller DataController(la fonction algorithmique) dans (app/http/controllers/)
 
 NB: Plusieurs technique pour le rendre plus dynamiques(via les formulaire dans la vue et organisation des récupérations des données dans les tables mysql) dans le cas d'un projet de développement en prod.
