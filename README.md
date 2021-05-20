@@ -14,9 +14,12 @@ C) Récupération et installation de la bdd
 
 -voir fichier .env , créer votre base de données dans phpmyadmin au nom test_up
 -charger les migration existante en tapant php artisan migrate.
-- charger la table datas , à partir du fichier sql en important directement dans phpmyadmin pour les données dans le fichiers csv.
+- charger la table datas , à partir du fichier sql en important directement dans phpmyadmin pour les données dans le fichiers csv.(voir fichier sql).
 
 
 B) accèder à votre routes http://127.0.0.1:8000/homes qui affiche directement les résutats de l'aglorithme pour les données demandées.
+
+
+NB: Plusieurs technique pour le rendre plus dynamiques(via les formulaire dans la vue et organisation des récupérations des données dans les tables mysql) dans le cas d'un projet de développement  en prod.
 
 
