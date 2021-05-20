@@ -12,7 +12,7 @@ B) Installation de projet clone le projet
 
 C) Récupération et installation de la bdd
 
--voir fichier .env , créer votre base de données dans phpmyadmin au nom test_up 
+- voir fichier .env , créer votre base de données dans phpmyadmin au nom test_up 
 
 - charger les migrations existante en tapant la commande  php artisan migrate.
 - importer le fichier datas.sql pour charger les données existant du csv  dans la table mysql nommée datas.
