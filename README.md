@@ -1,6 +1,6 @@
 développement du module de fidélisation par point test société up
 
-A)Environnement de développement PHP 7.3 , Lavarel 7. et Mysql
+A)Environnement de développement PHP 7.3 , Lavarel 7. et Mysql , serveur web wampserver , localhost
 
 B) Installation de projet clone le projet
 
@@ -27,4 +27,4 @@ B)
 
 - voir dans le controller DataController(la fonction algorithmique) dans (app/http/controllers/)
 
-NB: Plusieurs technique pour le rendre plus dynamiques(via les formulaire dans la vue et organisation des récupérations des données dans les tables mysql) dans le cas d'un projet de développement en prod.
+NB: s'autre reflexions poussées pour le rendre plus dynamiques(via les formulaire dans la vue et organisation des récupérations des données dans les tables mysql) dans le cas d'un projet de développement en prod.
