@@ -13,6 +13,8 @@ C) Récupération et installation de la bdd
 -voir fichier .env , créer votre base de données dans phpmyadmin au nom test_up -charger les migrations existante en tapant php artisan migrate.
 -importer le fichier datas.sql pour charger les données existant du csv  dans la table mysql nommée datas.
 
+NB: fichier sql envoyé par Email en piéce jointe.
+
 -démarer le serveur en tapant php artisan serve
 
 charger la table datas , à partir du fichier sql en important directement dans phpmyadmin pour les données dans le fichiers csv.(voir fichier sql).
