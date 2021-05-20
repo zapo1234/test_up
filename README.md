@@ -2,9 +2,11 @@ développement du module de fidélisation par point test société up
 
 A)Environnement de développement PHP 7.3 , Lavarel 7. et Mysql
 
-B) Installa tion de projet clone le projet
+B) Installation de projet clone le projet
 
 ->git clone git@github.com:zapo1234/test_up.git
+
+->sur votre terminale commande entrez dans le repertoire  dossier projet avec cd name_projet
 
 -> installer les dépendances dossiers vendor avec la commande =>conposer install
 
