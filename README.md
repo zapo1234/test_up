@@ -4,9 +4,9 @@ A)Environnement de développement PHP 7.3 , Lavarel 7. et Mysql
 
 B) Installation de projet clone le projet
 
-->git clone git@github.com:zapo1234/test_up.git
+-> git clone git@github.com:zapo1234/test_up.git
 
-->sur votre terminale commande entrez dans le repertoire  dossier projet avec cd name_projet (cd test_up).
+-> sur votre terminale commande entrez dans le repertoire  dossier projet avec cd name_projet (cd test_up).
 
 -> installer les dépendances dossiers vendor avec la commande =>conposer install
 
