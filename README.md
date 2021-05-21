@@ -27,4 +27,4 @@ B)
 
 - voir dans le controller DataController(la fonction algorithmique) dans (app/http/controllers/)
 
-NB: s'autre reflexions poussées pour le rendre plus dynamiques(via les formulaire dans la vue et organisation des récupérations des données dans les tables mysql) dans le cas d'un projet de développement en prod.
+NB: d'autre reflexions poussées pour le rendre plus dynamiques(via des formulaires dans la vue et organisations des récupérations des données dans les tables mysql) dans le cas d'un projet de développement en prod.
